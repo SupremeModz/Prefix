@@ -1,3 +1,222 @@
-# Property: suprememodz
-import zlib,base64
-exec(zlib.decompress(base64.b64decode("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")))
+import os
+import time
+from colorama import init, Fore, Style
+from api import SupremeModz
+
+init(autoreset=True)
+
+VERSION = "1.0.0"
+DEV_LINK = "https://t.me/Suprememodz"
+
+def clear():
+    os.system("clear" if os.name != "nt" else "cls")
+
+def header():
+    print(Fore.CYAN + "=" * 59)
+    print(Fore.WHITE + f"• Car Parking Multiplayer 2 - Version: {VERSION} || Dev: {DEV_LINK}")
+    print(Fore.CYAN + "=" * 59)
+
+def print_title_inside_line(title, width=59):
+    title_str = f"[ {title} ]"
+    total_len = width
+    side_len = max(0, (total_len - len(title_str) - 2) // 2)
+
+    left = Fore.CYAN + ("=" * side_len) + " "
+
+    center = Fore.CYAN + "[" + Fore.WHITE + f" {title} " + Fore.CYAN + "]"
+
+    base_len = side_len + 1 + len(title_str) + 1 + side_len
+    extra = max(0, total_len - base_len)
+    right = " " + Fore.CYAN + ("=" * (side_len + extra))
+
+    print(left + center + right + Style.RESET_ALL)
+
+def print_info(label, value, color=Fore.WHITE):
+    print(color + f"{label:<12} : {value}")
+
+def executar_servico(func, token, chave, email, password, pedir_valor=False):
+    """Runs a service by calling the utils function and shows result on the same line"""
+    amount = None
+    if pedir_valor:
+        try:
+            amount = int(input(Fore.YELLOW + "• Enter New Value: " + Style.RESET_ALL).strip())
+        except ValueError:
+            print(Fore.RED + "• Running Service: Invalid value.")
+            time.sleep(2)
+            return None
+
+    print(Fore.WHITE + "• Running Service: " + Style.RESET_ALL, end="")
+
+    try:
+        if pedir_valor:
+            resp = func(chave=chave, token=token, amount=amount, api_url=API_URL)
+        else:
+            resp = func(chave=chave, token=token, api_url=API_URL)
+
+        if resp.get("status_code") == 200 or resp.get("status") == "ok":
+            print(Fore.LIGHTGREEN_EX + "Success")
+        else:
+            msg = resp.get("message") or str(resp)
+            print(Fore.RED + f"Error: {msg}")
+
+    except Exception as e:
+        print(Fore.RED + f"Unexpected error: {e}")
+        return None
+
+    while True:
+        opt = input(Fore.WHITE + "• Return To Main Menu? (Y/N): " + Style.RESET_ALL).strip().lower()
+        if opt == "y":
+            return True
+        elif opt == "n":
+            print(Fore.CYAN + "Bye Bye...")
+            exit(0)
+        else:
+            print(Fore.RED + "❌ Invalid option! Type only Y or N.")
+            time.sleep(2)
+
+def menu_loop(dados, token, chave, email, password):
+    while True:
+        clear()
+        header()
+
+        print_title_inside_line("User Detail")
+        print_info("ID", dados.get("id"))
+        print_info("Key", dados.get("key"))
+        print_info("Valid Until", dados.get("valid_until"))
+
+        print_title_inside_line("Player Information")
+        print_info("Name", dados.get("name"))
+        print_info("LocalId", dados.get("localid"))
+        print_info("Money", dados.get("money"))
+        print_info("Coins", dados.get("coins"))
+        print_info("Slots", dados.get("slots"))
+        print_info("Cars", dados.get("cars_count"))
+
+        print_title_inside_line("Menu")
+        print(Fore.WHITE + "[" + Fore.CYAN + "01" + Fore.WHITE + "] Inject Account In Generator.")
+        print(Fore.WHITE + "[" + Fore.CYAN + "02" + Fore.WHITE + "] Unlock Redrock garage .")
+        print(Fore.WHITE + "[" + Fore.CYAN + "00" + Fore.WHITE + "] Exit Tool.")
+
+        print(Fore.CYAN + "=" * 59)
+        opt = input(
+            Fore.WHITE + "Input Menu Number " +
+            Fore.CYAN + "[" + 
+            Fore.WHITE + "00 - 02" + 
+            Fore.CYAN + "]" + 
+            Style.RESET_ALL + ": "
+        ).strip()
+
+        if opt in ("0", "00"):
+            print(Fore.CYAN + "Bye Bye...")
+            return False
+        elif opt in ("1", "01"):
+            return executar_servico(inject_account, token, chave, email, password)
+        else:
+            print(Fore.RED + "Invalid Option. Reloading Menu In 3 Seconds...")
+            time.sleep(3)
+
+def login_e_menu(key, email, password):
+    """Login and Main Menu"""
+    key_result = verificar_key_com_fingerprint(key, api_url=API_URL)
+    if key_result.get("status") != "ok":
+        print(Fore.RED + key_result.get("message", "Unknown error.") + Style.RESET_ALL)
+        time.sleep(3)
+        return False
+
+    token = key_result.get("token")
+    if not token:
+        print(Fore.RED + "❌ Token not returned." + Style.RESET_ALL)
+        time.sleep(3)
+        return False
+
+    login_result = login(chave=key, email=email, password=password, token=token, api_url=API_URL)
+    if not login_result.get("success"):
+        print(Fore.RED + login_result.get("message", "Unknown login error.") + Style.RESET_ALL)
+        time.sleep(3)
+        return False
+
+    dados_para_menu = {
+        "id": key_result.get("id"),
+        "key": key,
+        "valid_until": key_result.get("valid_until"),
+        "name": login_result.get("name"),
+        "localid": login_result.get("localid"),
+        "money": login_result.get("money"),
+        "coins": login_result.get("coins"),
+        "slots": login_result.get("slots"),
+        "cars_count": login_result.get("cars_count")
+    }
+
+    return menu_loop(dados_para_menu, token, key, email, password)
+
+def main():
+    try:
+        clear()
+        header()
+
+        key = input(Fore.WHITE + "• Enter Your Key: " + Style.RESET_ALL).strip()
+        if not key:
+            print(Fore.RED + "Empty key.")
+            time.sleep(3)
+            return
+
+        email = input(Fore.WHITE + "• Enter Your Email: " + Style.RESET_ALL).strip()
+        if not email:
+            print(Fore.RED + "Empty email.")
+            time.sleep(3)
+            return
+
+        password = input(Fore.WHITE + "• Enter Your Password: " + Style.RESET_ALL).strip()
+        if not password:
+            print(Fore.RED + "Empty password.")
+            time.sleep(3)
+            return
+
+        print(Fore.WHITE + "• Verifying Key: " + Style.RESET_ALL, end="")
+        key_result = SupremeModz(key, api_url="https://admincpm.io/KrishPV/api")
+        if key_result.get("status") != "ok":
+            print(Fore.RED + key_result.get("message", "Unknown error.") + Style.RESET_ALL)
+            time.sleep(3)
+            return
+        print(Fore.LIGHTGREEN_EX + "Success")
+
+        token = key_result.get("token")
+        if not token:
+            print(Fore.RED + "❌ Token not returned.")
+            time.sleep(3)
+            return
+
+        print(Fore.WHITE + "• Logging In: " + Style.RESET_ALL, end="")
+        login_result = login(chave=key, email=email, password=password, token=token, api_url=API_URL)
+        if not login_result.get("success"):
+            print(Fore.RED + login_result.get("message", "Unknown login error.") + Style.RESET_ALL)
+            time.sleep(3)
+            return
+        print(Fore.LIGHTGREEN_EX + "Success")
+
+        time.sleep(3)
+
+        dados_para_menu = {
+            "id": key_result.get("id"),
+            "key": key,
+            "valid_until": key_result.get("valid_until"),
+            "name": login_result.get("name"),
+            "localid": login_result.get("localid"),
+            "money": login_result.get("money"),
+            "coins": login_result.get("coins"),
+            "slots": login_result.get("slots"),
+            "cars_count": login_result.get("cars_count")
+        }
+
+        reload_menu = menu_loop(dados_para_menu, token, key, email, password)
+
+        while reload_menu:
+            reload_menu = login_e_menu(key, email, password)
+            if not reload_menu:
+                break
+
+    except KeyboardInterrupt:
+        print("\n" + Fore.CYAN + "Bye Bye...")
+
+if __name__ == "__main__":
+    main()
